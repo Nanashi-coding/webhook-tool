@@ -1,3 +1,4 @@
+/* 共通スタイル */
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -14,7 +15,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  max-width: 400px;
+  max-width: 500px;
   width: 100%;
 }
 
@@ -32,7 +33,7 @@ label {
   color: #b399ff;
 }
 
-input, textarea {
+input, textarea, select {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
@@ -68,4 +69,14 @@ button:hover {
   text-align: center;
   margin-top: 15px;
   font-weight: bold;
+}
+
+body.light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.container.light {
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
